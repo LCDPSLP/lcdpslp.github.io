@@ -23,7 +23,7 @@ const events_tableau = [
  {
     id: "12-10-2025",
     titre: "J'aime beaucoup ce que vous faites.",
-    date: "Le 12 Octobre 2025 à 16h30",
+    date: "Le 12 Octobre 2025 à 17h00",
     date_iso: "2025-10-12",
     lieu: "Salle des Arts de Villennes sur Seine",
     description: "Comment une fausse manœuvre avec un téléphone portable vous fait découvrir ce que vos meilleurs amis pensent de vous en réalité, juste avant leur arrivée pour un week-end finalement pas comme les autres dans votre maison de campagne... <br><br> Réservation :   <a href='mailto:lcdpslp78@gmail.com'>lcdpslp78@gmail.com</a>",
