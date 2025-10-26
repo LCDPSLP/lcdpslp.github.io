@@ -16,7 +16,7 @@ const events_tableau = [
     lieu: "Les Automnales de Vernouillet",
     description: "Comment une fausse manœuvre avec un téléphone portable vous fait découvrir ce que vos meilleurs amis pensent de vous en réalité, juste avant leur arrivée pour un week-end finalement pas comme les autres dans votre maison de campagne... <br> <br> Réservation :   <a href='mailto:lcdpslp78@gmail.com'>lcdpslp78@gmail.com</a>",
     affiche: "images/Affiches/20251024.png",
-        highlight: true
+        highlight: false
 
   },
 
