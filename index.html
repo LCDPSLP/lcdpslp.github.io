@@ -216,9 +216,6 @@ const CAROUSEL_ACTIF = false; // ← change en true pour réactiver
   }
 </script>
 
-</body>
-</html>
-
 <div style="text-align: center; margin-top: 1rem; font-size: 1.2rem;">
   <span id="compteur"></span>
 </div>
@@ -228,3 +225,10 @@ fetch('https://api.countapi.xyz/hit/lcdpslp.github.io/visites')
   .then(r => r.json())
   .then(data => document.getElementById('compteur').innerText = data.value);
 </script>
+
+
+
+
+</body>
+</html>
+
