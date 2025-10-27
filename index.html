@@ -216,14 +216,26 @@ const CAROUSEL_ACTIF = false; // ← change en true pour réactiver
   }
 </script>
 
-<div style="text-align: center; margin-top: 1rem; font-size: 1.2rem;">
-  <span id="compteur"></span>
+
+
+<div style="text-align: center; margin-top: 1rem;">
+  <span id="compteur" style="font-size: 0.9em; color: #87cefa; font-family: inherit;">…</span>
 </div>
 
 <script>
-fetch('https://api.countapi.xyz/hit/lcdpslp.github.io/visites')
-  .then(r => r.json())
-  .then(data => document.getElementById('compteur').innerText = data.value);
+const API_URL = "https://api.npoint.io/11feba1221e3471e9155";
+
+fetch(API_URL)
+  .then(response => response.json())
+  .then(data => {
+    const realVisits = data.visites || 0;
+    const displayValue = realVisits + 100;
+    document.getElementById("compteur").innerText = `${displayValue} visiteurs à ce jour`;
+  })
+  .catch(err => {
+    console.error("Erreur lecture compteur :", err);
+    document.getElementById("compteur").innerText = "– visiteurs à ce jour";
+  });
 </script>
 
 
