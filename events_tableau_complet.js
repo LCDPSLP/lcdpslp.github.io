@@ -8,6 +8,23 @@ const events_tableau = [
 */
 
 
+
+
+
+
+{
+    id: "04-04-2026",
+    titre: "J'aime beaucoup ce que vous faites.",
+    date: "Le 4 Avril 2026 à 20h30",
+    date_iso: "2026-04-04",
+    lieu: "Salle Maeterlink de Médan",
+    description: "Comment une fausse manœuvre avec un téléphone portable vous fait découvrir ce que vos meilleurs amis pensent de vous en réalité, juste avant leur arrivée pour un week-end finalement pas comme les autres dans votre maison de campagne... <br> <br> Réservation :   <a href='mailto:lcdpslp78@gmail.com'>lcdpslp78@gmail.com</a>",
+    affiche: "images/Affiches/20260404.png",
+        highlight: true
+
+  },
+
+
 {
     id: "24-10-2025",
     titre: "J'aime beaucoup ce que vous faites.",
